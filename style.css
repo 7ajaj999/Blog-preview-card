@@ -1,0 +1,136 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    margin: 0;
+}
+.container1{
+    position: relative;
+    height: 99.5vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    position: absolute;
+    border: 1.5px, solid, black;
+    border-radius: 5%;
+    height: 400px;
+    margin: 0;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 6px 6px 0px black;
+    transition: transform 1.2s,
+                box-shadow 1.2s;
+}
+.container2:hover{
+    transform: translate(-4px,-10px);
+    box-shadow: 10px 16px 0px black;
+}
+.container2:hover #text3{
+    color: hsl(47, 82%, 52%);
+}
+#image1{
+    position: absolute;
+    top:5%;
+    width: 90%;
+    border-radius: 4%;
+}
+.text1_container{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 6%;
+    height: 6%;
+    width:23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text1{
+    position: absolute;
+    font-family: "Figtree";
+    font-size: 13px;
+    font-weight: 750;
+}
+.text2_container{
+    position: absolute;
+    left: 5%;
+    top: 57.3%;
+    height: 6%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text2{
+    position: absolute;
+    left: 0;
+    font-family: "Figtree";
+    font-size: 12px;
+    font-weight: 550;
+}
+.text3_container{
+    position: absolute;
+    left: 5%;
+    top: 65.5%;
+    height: 6%;
+    width:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text3{
+    position: absolute;
+    left: 0;
+    font-family: "Figtree";
+    font-size: 20px;
+    font-weight: 800;
+    transition: color 1s;
+}
+.text4_container{
+    position: absolute;
+    left: 5%;
+    top: 78%;
+    height: 6%;
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text4{
+    position: absolute;
+    left: 0;
+    font-family: "Figtree";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+#image2{
+    position: absolute;
+    top:90%;
+    left:5%;
+    width: 10%;
+    border-radius: 50%;
+}
+.text5_container{
+    position: absolute;
+    left: 18%;
+    top: 90%;
+    height: 6%;
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#text5{
+    position: absolute;
+    left: 0;
+    font-family: "Figtree";
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 1.4;
+}
